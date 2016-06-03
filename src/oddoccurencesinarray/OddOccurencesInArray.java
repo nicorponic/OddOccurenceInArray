@@ -7,7 +7,7 @@ public class OddOccurencesInArray {
 
         int A[] = {9, 5, 5, 6, 3, 6, 3};
 
-        //sets unpaired equal to A[0]. So 9 in this case
+        // sets unpaired equal to A[0]. So 9 in this case
         int unPairedNum = A[0];
         
         for (int i = 1; i < A.length; i++) {
