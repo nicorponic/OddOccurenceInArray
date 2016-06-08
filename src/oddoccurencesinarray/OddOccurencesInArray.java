@@ -14,7 +14,7 @@ public class OddOccurencesInArray {
             // An exclusive OR (^), usually abbreviated XOR, will set a bit on if, 
             //and only if, the bits being compared are different.If they are the same
             //the the result is 0.
-            // So in this case unpairednum will kinda "remembers" all numbers as
+            // So in this case unpairednum will kinda "remember" all numbers as
             //long as they are not repeated twice. When that happens, unpairednum
             // forgets both numbers.
             unPairedNum = unPairedNum ^ A[i];
